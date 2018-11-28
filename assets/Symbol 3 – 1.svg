@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394 195">
+    <defs>
+        <style>
+            .cls-1, .cls-2 {
+            fill: #fff;
+            }
+
+            .cls-1 {
+            font-size: 72px;
+            font-family: BebasKai, Bebas Kai;
+            }
+
+            .cls-2 {
+            font-size: 28px;
+            font-family: Static;
+            }
+
+            .cls-3, .cls-6 {
+            fill: none;
+            }
+
+            .cls-3, .cls-4 {
+            stroke: #fff;
+            stroke-width: 6px;
+            }
+
+            .cls-4 {
+            fill: #02023a;
+            }
+
+            .cls-5 {
+            stroke: none;
+            }
+        </style>
+    </defs>
+    <g id="Symbol_3_1" data-name="Symbol 3 – 1" transform="translate(-779 -257)">
+        <text id="_06_Januari_2019" data-name="06 Januari 2019" class="cls-1" transform="translate(976 384)">
+            <tspan x="-196.632" y="0">06 Januari 2019</tspan>
+        </text>
+        <text id="SMAN_1_Kota_Probolinggo" data-name="SMAN 1 Kota Probolinggo" class="cls-2"
+              transform="translate(976 445)">
+            <tspan x="-143.164" y="0">SMAN 1 Kota Probolinggo</tspan>
+        </text>
+        <text id="_-_Tryout_Seminar_-" data-name="- Tryout &amp; Seminar -" class="cls-2"
+              transform="translate(976 284)">
+            <tspan x="-117.194" y="0">- Tryout &amp; Seminar -</tspan>
+        </text>
+        <line id="Line_12" data-name="Line 12" class="cls-3" x2="389" transform="translate(781.5 403.5)"/>
+        <g id="Ellipse_5" data-name="Ellipse 5" class="cls-4" transform="translate(966 393)">
+            <circle class="cls-5" cx="10" cy="10" r="10"/>
+            <circle class="cls-6" cx="10" cy="10" r="7"/>
+        </g>
+    </g>
+</svg>

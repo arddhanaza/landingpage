@@ -1,0 +1,227 @@
+body {
+    padding: 0px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #02023a;
+    border: 0;
+    font-size: 12px !important;
+    font-family: Roboto;
+    border-radius: 0px;
+}
+
+.navbar .navbar-nav li a {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #f048ff;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #f048ff !important;
+}
+
+.navbar .btn-tryout {
+    margin: 10px 15px 0px 15px;
+    width: 82px;
+    height: 31px;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px 0 rgba(189, 47, 199, 0.89);
+    background-color: #ab00ff;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #f048ff;
+}
+
+/*.header{
+  background-color: $color-bg;
+  padding: 0px;
+  overflow: hidden;
+  height: 677px;
+
+  .header-left{
+    #mudik{
+      width: 452px;
+      object-fit: contain;
+      position: relative;
+      margin-left: 10%;
+      margin-top: 10%;
+    }
+    #aksen-1{
+      width: 329px;
+      object-fit: contain;
+      position: absolute;
+      left: 0px;
+      bottom: -220px;
+    }
+  }
+  .header-right{
+    #aksen-2{
+      position: absolute;
+      right: -60px;
+      width: 125px;
+      object-fit: contain;
+    }
+    #banner{
+      margin-top: 25%;
+      margin-left: 10%;
+      position: absolute;
+      width: 394px;
+      object-fit: contain;
+    }
+    .btn-daftar{
+      position: relative;
+      margin-top: 65%;
+      margin-left: 30%;
+      height: 35px;
+      border-radius: 18px;
+      box-shadow: 0 2px 10px 0 rgba(189, 47, 199, 0.89);
+      background-color: #ab00ff;
+      font-family: Roboto;
+      font-size: 17px;
+      line-height: 1.18;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+    }
+    .btn-daftar:hover{
+      background-color: $color-hover;
+    }
+  }
+}*/
+.header {
+    background-color: #02023a;
+    padding: 0px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header .header-left {
+    height: 675px;
+    padding: 5%;
+    text-align: center;
+}
+
+.header .header-left #mudik {
+    width: 452px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.header .header-left #aksen-1 {
+    width: 329px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.header .header-right {
+    height: 675px;
+    padding: 5%;
+    text-align: center;
+}
+
+.header .header-right #banner {
+    width: 394px;
+    object-fit: contain;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.header .header-right #aksen-2 {
+    width: 125px;
+    object-fit: contain;
+    position: absolute;
+    right: -6%;
+    top: 0%;
+}
+
+.header .header-right .btn-daftar {
+    margin-top: 10%;
+    display: inline-block;
+    height: 35px;
+    border-radius: 18px;
+    box-shadow: 0 2px 10px 0 rgba(189, 47, 199, 0.89);
+    background-color: #ab00ff;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header .header-right .btn-daftar:hover {
+    background-color: #f048ff;
+}
+
+.about-us {
+    margin-top: 5%;
+}
+
+.about-us .logo {
+    text-align: center;
+}
+
+.about-us .logo img {
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.about-us .about-left h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 10%;
+    color: #02023a;
+}
+
+.about-us .about-left p {
+    color: #02023a;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.about-us .about-right img {
+    width: 621.3px;
+    height: 551.2px;
+    object-fit: contain;
+}
+
+.our-family {
+    margin-top: 5%;
+    background-color: #02023a;
+}
+
+.our-family h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 10%;
+    color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

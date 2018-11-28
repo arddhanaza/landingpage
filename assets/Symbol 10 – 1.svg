@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: #9e30d8;
+            }
+
+            .cls-2 {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 3px;
+            }
+
+            .cls-3 {
+            filter: url(#Ellipse_6);
+            }
+        </style>
+        <filter id="Ellipse_6" x="0" y="0" width="86" height="86" filterUnits="userSpaceOnUse">
+            <feOffset input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feFlood flood-color="#9e30d8" flood-opacity="0.69"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Symbol_10_1" data-name="Symbol 10 – 1" transform="translate(-1184 -1834)">
+        <g id="Group_11" data-name="Group 11" transform="translate(1367 3754) rotate(180)">
+            <g class="cls-3" transform="matrix(-1, 0, 0, -1, 183, 1920)">
+                <circle id="Ellipse_6-2" data-name="Ellipse 6" class="cls-1" cx="31" cy="31" r="31"
+                        transform="translate(74 74) rotate(180)"/>
+            </g>
+            <path id="Path_28" data-name="Path 28" class="cls-2" d="M0,0H19.97V19.97"
+                  transform="translate(145.006 1891.127) rotate(-135)"/>
+        </g>
+    </g>
+</svg>
