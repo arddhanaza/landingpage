@@ -200,19 +200,34 @@ body {
   }
 }
 
-.our-family {
+.family {
   margin-top: 5%;
   background-color: $color-bg;
-  h1 {
-    font-family: Roboto;
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 1.21;
-    letter-spacing: normal;
-    text-align: left;
-    margin-bottom: 10%;
-    color: white;
+  .our-family {
+    h1 {
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 1.21;
+      letter-spacing: normal;
+      text-align: left;
+      margin-bottom: 10%;
+      color: white;
+    }
+    .card {
+      border-radius: 6px;
+      width: 260px;
+      height: 345px;
+      overflow: hidden;
+      padding: 0px;
+      img {
+        width: 260px;
+
+      }
+    }
   }
 }
+
+
 
 
