@@ -1,0 +1,212 @@
+body {
+  padding: 0px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #02023a;
+  border: 0;
+  font-size: 12px !important;
+  font-family: Roboto;
+  border-radius: 0px;
+}
+.navbar .navbar-nav li a {
+  color: white;
+}
+.navbar .navbar-brand {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+  color: #f048ff;
+}
+.navbar .navbar-nav li a:hover {
+  color: #f048ff !important;
+}
+
+.header {
+  background-color: #02023a;
+  padding: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 617px;
+}
+@media screen and (max-width: 425px) {
+  .header {
+    height: 520px;
+  }
+}
+.header #aksen-1 {
+  width: 329px;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+@media screen and (max-width: 425px) {
+  .header #aksen-1 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header #aksen-1 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header #aksen-1 {
+    width: 150px;
+  }
+}
+.header .info {
+  margin-top: 200px;
+  margin-left: 180px;
+  color: #ffffff;
+  font-size: 41px;
+  width: 461px;
+  height: 280px;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 1.22;
+}
+@media screen and (max-width: 425px) {
+  .header .info {
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header .info {
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header .info {
+    font-size: 15px;
+    margin-top: 220px;
+    margin-left: 50px;
+  }
+}
+.header .info-regis {
+  margin-top: 200px;
+  float: left;
+  margin-left: 180px;
+  color: #ffffff;
+  font-size: 41px;
+  width: 461px;
+  height: 280px;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 1.22;
+}
+@media screen and (max-width: 1024px) {
+  .header .info-regis {
+    font-size: 22px;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header .info-regis {
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header .info-regis {
+    font-size: 18px;
+    margin-top: 220px;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header .info-regis {
+    font-size: 15px;
+    margin-top: 220px;
+    margin-left: 50px;
+  }
+}
+.header .regis-form {
+  width: 536px;
+  background-color: #f3f3f3;
+  padding: 59px 37px 30px 37px;
+  margin-left: 745px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 1024px) {
+  .header .regis-form {
+    font-size: 22px;
+    margin-left: 460px;
+    width: 500px;
+  }
+}
+.header .regis-form .submit-btn {
+  position: absolute;
+  margin-top: 10px;
+  width: 461.7px;
+  height: 35px;
+  border-radius: 18px;
+  box-shadow: 0 2px 3px 0 rgba(189, 47, 199, 0.89);
+  background-color: #ab00ff;
+}
+.header .regis-form p {
+  width: 461px;
+  height: 49px;
+  font-family: Montserrat;
+  font-size: 41px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ab00ff;
+}
+@media screen and (max-width: 1024px) {
+  .header .regis-form p {
+    width: 420px;
+  }
+}
+.header .regis-form input {
+  margin-bottom: 15px;
+  width: 461px;
+  height: 48px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #b1b1b1;
+  padding: 10px 10px 10px 5px;
+}
+@media screen and (max-width: 1024px) {
+  .header .regis-form input {
+    width: 420px;
+  }
+}
+.header #aksen-2 {
+  z-index: 1;
+  width: 125px;
+  object-fit: contain;
+  position: absolute;
+  right: -4%;
+  top: 0%;
+}
+@media screen and (max-width: 768px) {
+  .header #aksen-2 {
+    right: -8%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header #aksen-2 {
+    right: -14%;
+  }
+}
+
+/*# sourceMappingURL=sub-page.css.map */
