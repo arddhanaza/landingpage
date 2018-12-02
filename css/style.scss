@@ -205,18 +205,20 @@ body {
   background-color: $color-bg;
   .our-family {
     h1 {
+      margin-top : 5%;
       font-family: Roboto;
       font-size: 48px;
       font-weight: bold;
       line-height: 1.21;
       letter-spacing: normal;
       text-align: left;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       color: white;
     }
     .card {
       border-radius: 6px;
       width: 260px;
+      margin-bottom : 25%;
       height: 345px;
       overflow: hidden;
       padding: 0px;
