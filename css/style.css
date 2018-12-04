@@ -1,5 +1,6 @@
 body {
   padding: 0px;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -96,49 +97,138 @@ body {
     }
   }
 }*/
+/*.header {
+  background-color: $color-bg;
+  padding: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  .header-left {
+    height: 675px;
+    padding: 5%;
+    text-align: center;
+    #mudik {
+      width: 452px;
+      object-fit: contain;
+      display: inline-block;
+    }
+    #aksen-1 {
+      width: 329px;
+      object-fit: contain;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+  }
+  .header-right {
+    height: 675px;
+    padding: 5%;
+    text-align: center;
+
+    #banner {
+      width: 394px;
+      object-fit: contain;
+      display: inline-block;
+      margin-top: 10%;
+    }
+    #aksen-2 {
+      width: 125px;
+      object-fit: contain;
+      position: absolute;
+      right: -6%;
+      top: 0%;
+    }
+    .btn-daftar {
+      margin-top: 10%;
+      display: inline-block;
+      height: 35px;
+      border-radius: 18px;
+      box-shadow: 0 2px 10px 0 rgba(189, 47, 199, 0.89);
+      background-color: #ab00ff;
+      font-family: Roboto;
+      font-size: 17px;
+      line-height: 1.18;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+    .btn-daftar:hover {
+      background-color: $color-hover;
+    }
+  }
+}*/
 .header {
   background-color: #02023a;
   padding: 0px;
   max-width: 100%;
   overflow: hidden;
+  height: 645px;
 }
-.header .header-left {
-  height: 675px;
-  padding: 5%;
-  text-align: center;
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 575px;
+  }
 }
-.header .header-left #mudik {
-  width: 452px;
-  object-fit: contain;
-  display: inline-block;
+@media screen and (max-width: 425px) {
+  .header {
+    height: 520px;
+  }
 }
-.header .header-left #aksen-1 {
-  width: 329px;
+.header #aksen-1 {
+  width: 312px;
+  z-index: 1;
   object-fit: contain;
   position: absolute;
   bottom: 0px;
   left: 0px;
 }
-.header .header-right {
-  height: 675px;
-  padding: 5%;
-  text-align: center;
+@media screen and (max-width: 1024px) {
+  .header #aksen-1 {
+    width: 260px;
+  }
 }
-.header .header-right #banner {
+@media screen and (max-width: 425px) {
+  .header #aksen-1 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header #aksen-1 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header #aksen-1 {
+    width: 150px;
+  }
+}
+.header #mudik {
+  width: 452px;
+  object-fit: contain;
+  display: inline-block;
+  margin: 86px 0px 0px 157px;
+}
+@media screen and (max-width: 1024px) {
+  .header #mudik {
+    margin-left: 120px;
+    width: 350px;
+  }
+}
+.header #banner {
   width: 394px;
   object-fit: contain;
   display: inline-block;
   margin-top: 10%;
+  margin-left: 170px;
 }
-.header .header-right #aksen-2 {
-  width: 125px;
-  object-fit: contain;
-  position: absolute;
-  right: -6%;
-  top: 0%;
+@media screen and (max-width: 1024px) {
+  .header #banner {
+    margin-left: 120px;
+    width: 320px;
+  }
 }
-.header .header-right .btn-daftar {
-  margin-top: 10%;
+.header .btn-daftar {
+  margin-left: 908px;
+  margin-bottom: 118px;
   display: inline-block;
   height: 35px;
   border-radius: 18px;
@@ -151,19 +241,66 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.header .header-right .btn-daftar:hover {
+@media screen and (max-width: 1024px) {
+  .header .btn-daftar {
+    margin-left: 680px;
+    margin-bottom: 125px;
+  }
+}
+.header .btn-daftar:hover {
   background-color: #f048ff;
+}
+.header #aksen-2 {
+  z-index: 1;
+  width: 150px;
+  object-fit: contain;
+  position: absolute;
+  right: -4%;
+  top: 0%;
+}
+@media screen and (max-width: 1024px) {
+  .header #aksen-2 {
+    right: -6%;
+    width: 135px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header #aksen-2 {
+    right: -8%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header #aksen-2 {
+    right: -14%;
+  }
 }
 
 .about-us {
-  margin-top: 5%;
+  background-color: #ffffff;
+  padding: 0px;
+  padding-bottom: 65px;
 }
 .about-us .logo {
+  margin-top: 10%;
   text-align: center;
 }
 .about-us .logo img {
   display: inline-block;
   margin-bottom: 2%;
+  object-fit: contain;
+}
+@media screen and (max-width: 1024px) {
+  .about-us .logo img {
+    width: 420px;
+  }
+}
+.about-us .about-left {
+  padding: 0px 0px 0px 139px;
+}
+@media screen and (max-width: 1024px) {
+  .about-us .about-left {
+    padding-left: 100px;
+  }
 }
 .about-us .about-left h1 {
   font-family: Roboto;
@@ -173,27 +310,50 @@ body {
   letter-spacing: normal;
   text-align: left;
   margin-bottom: 10%;
+  float: left;
   color: #02023a;
+}
+@media screen and (max-width: 1024px) {
+  .about-us .about-left h1 {
+    font-size: 40px;
+  }
 }
 .about-us .about-left p {
   color: #02023a;
   font-family: Roboto;
   font-size: 21px;
+  width: 536px;
+  float: left;
   line-height: 1.19;
   letter-spacing: normal;
   text-align: left;
+}
+@media screen and (max-width: 1024px) {
+  .about-us .about-left p {
+    font-size: 18px;
+    width: 460px;
+  }
+}
+.about-us .about-right {
+  padding: 0px;
 }
 .about-us .about-right img {
   width: 621.3px;
   height: 551.2px;
   object-fit: contain;
 }
+@media screen and (max-width: 1024px) {
+  .about-us .about-right img {
+    width: 421.3px;
+    height: 375.2px;
+  }
+}
 
 .family {
-  margin-top: 5%;
   background-color: #02023a;
+  padding: 0px 108px 95px 108px;
 }
-.family .our-family h1 {
+.family h1 {
   margin-top: 5%;
   font-family: Roboto;
   font-size: 48px;
@@ -204,16 +364,31 @@ body {
   margin-bottom: 5%;
   color: white;
 }
-.family .our-family .card {
+@media screen and (max-width: 1024px) {
+  .family h1 {
+    font-size: 40px;
+  }
+}
+.family .card {
   border-radius: 6px;
   width: 260px;
-  margin-bottom: 25%;
   height: 345px;
   overflow: hidden;
   padding: 0px;
 }
-.family .our-family .card img {
+@media screen and (max-width: 1024px) {
+  .family .card {
+    width: 180px;
+    height: 260px;
+  }
+}
+.family .card img {
   width: 260px;
+}
+@media screen and (max-width: 1024px) {
+  .family .card img {
+    width: 180px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@ $color-bg: #02023a;
 
 body {
   padding: 0px;
+  overflow-x : hidden;
 }
 
 .navbar {
@@ -102,7 +103,7 @@ body {
   }
 }*/
 
-.header {
+/*.header {
   background-color: $color-bg;
   padding: 0px;
   max-width: 100%;
@@ -160,18 +161,125 @@ body {
       background-color: $color-hover;
     }
   }
+}*/
+
+.header {
+  background-color: $color-bg;
+  padding: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 645px;
+  @media screen and (max-width: 1024px) {
+    height : 575px;
+  }
+  @media screen and (max-width: 425px) {
+    height : 520px;
+  }
+  #aksen-1 {
+    width: 312px;
+    z-index : 1;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    @media screen and (max-width: 1024px) {
+      width : 260px;
+    }
+    @media screen and (max-width: 425px) {
+      width : 225px;
+    }
+    @media screen and (max-width: 375px) {
+      width : 200px;
+    }
+    @media screen and (max-width: 320px) {
+    width : 150px;
+    }
+  }
+  #mudik {
+    width: 452px;
+    object-fit: contain;
+    display: inline-block;
+    margin : 86px 0px 0px 157px;
+    @media screen and (max-width: 1024px) {
+      margin-left : 120px;
+      width : 350px;
+    }
+  }
+  #banner {
+    width: 394px;
+    object-fit: contain;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left : 170px;
+    @media screen and (max-width: 1024px) {
+      margin-left : 120px;
+      width : 320px;
+    }
+  }
+
+  .btn-daftar {
+    margin-left : 908px;
+    margin-bottom : 118px;
+    display: inline-block;
+    height: 35px;
+    border-radius: 18px;
+    box-shadow: 0 2px 10px 0 rgba(189, 47, 199, 0.89);
+    background-color: #ab00ff;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    @media screen and (max-width: 1024px) {
+      margin-left : 680px;
+      margin-bottom : 125px;
+    }
+  }
+    .btn-daftar:hover {
+      background-color: $color-hover;
+    }
+  #aksen-2 {
+    z-index : 1;
+    width: 150px;
+    object-fit: contain;
+    position: absolute;
+    right: -4%;
+    top: 0%;
+    @media screen and (max-width: 1024px) {
+      right : -6%;
+      width : 135px;
+    }
+    @media screen and (max-width: 768px) {
+      right : -8%;
+    }
+    @media screen and (max-width: 425px) {
+      right : -14%;
+    }
+  }
 }
 
 .about-us {
-  margin-top: 5%;
+  background-color : #ffffff;
+  padding : 0px;
+  padding-bottom : 65px;
   .logo {
+    margin-top : 10%;
     text-align: center;
     img {
       display: inline-block;
       margin-bottom: 2%;
+      object-fit : contain;
+      @media screen and (max-width: 1024px) {
+        width : 420px;
+      }
     }
   }
   .about-left {
+    padding : 0px 0px 0px 139px;
+    @media screen and (max-width: 1024px) {
+      padding-left : 100px;
+    }
     h1 {
       font-family: Roboto;
       font-size: 48px;
@@ -180,56 +288,74 @@ body {
       letter-spacing: normal;
       text-align: left;
       margin-bottom: 10%;
+      float : left;
       color: $color-bg;
+      @media screen and (max-width: 1024px) {
+        font-size : 40px; 
+      }
     }
     p {
       color: $color-bg;
       font-family: Roboto;
       font-size: 21px;
+      width : 536px;
+      float : left;
       line-height: 1.19;
       letter-spacing: normal;
       text-align: left;
+      @media screen and (max-width: 1024px) {
+        font-size : 18px;
+        width : 460px;   
+      }
     }
   }
   .about-right {
+    padding : 0px;
     img {
       width: 621.3px;
       height: 551.2px;
       object-fit: contain;
-    }
-  }
-}
-
-.family {
-  margin-top: 5%;
-  background-color: $color-bg;
-  .our-family {
-    h1 {
-      margin-top : 5%;
-      font-family: Roboto;
-      font-size: 48px;
-      font-weight: bold;
-      line-height: 1.21;
-      letter-spacing: normal;
-      text-align: left;
-      margin-bottom: 5%;
-      color: white;
-    }
-    .card {
-      border-radius: 6px;
-      width: 260px;
-      margin-bottom : 25%;
-      height: 345px;
-      overflow: hidden;
-      padding: 0px;
-      img {
-        width: 260px;
-
+      @media screen and (max-width: 1024px) {
+        width: 421.3px;
+        height: 375.2px;
       }
     }
   }
 }
 
-
-
+.family {
+  background-color: $color-bg;
+  padding : 0px 108px 95px 108px;
+  h1 {
+    margin-top : 5%;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 5%;
+    color: white;
+    @media screen and (max-width: 1024px) {
+      font-size : 40px; 
+    }
+  }
+  .card {
+    border-radius: 6px;
+    width: 260px;
+    height: 345px;
+    overflow: hidden;
+    padding: 0px;
+    @media screen and (max-width: 1024px) {
+      width : 180px; 
+      height: 260px;
+    }
+    img {
+      width: 260px;
+      @media screen and (max-width: 1024px) {
+        width : 180px; 
+      }   
+    }
+  }
+}
 

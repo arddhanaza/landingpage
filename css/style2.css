@@ -1,8 +1,13 @@
 .carousel-control {
   text-shadow: none;
-  top: 148px;
+  top: 128px;
   height: 0;
   opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+  .carousel-control {
+    top: 118px;
+  }
 }
 .carousel-control img {
   width: 62px;
@@ -10,7 +15,7 @@
 }
 
 .gallery {
-  margin-top: 5%;
+  padding: 73px 138px 133px 138px;
 }
 .gallery h1 {
   font-family: roboto;
@@ -21,6 +26,11 @@
   text-align: left;
   margin-bottom: 10%;
   color: #02023a;
+}
+@media screen and (max-width: 1024px) {
+  .gallery h1 {
+    font-size: 40px;
+  }
 }
 
 .grid {
@@ -79,6 +89,7 @@
 }
 .footer .footer-desc {
   color: #ffffff;
+  background-color: #02023a;
 }
 .footer .footer-desc h4 {
   width: 25%;

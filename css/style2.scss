@@ -2,16 +2,19 @@ $color-bg: #02023a;
 
 .carousel-control {
   text-shadow : none;
-  top : 148px;
+  top : 128px;
   height : 0;
   opacity : 1;
+  @media screen and (max-width: 1024px) {
+    top : 118px;
+  }
   img {
     width : 62px;
     height : 62px;
   }
 }
 .gallery{
-  margin-top : 5%;
+  padding : 73px 138px 133px 138px;
   h1 {
     font-family : roboto;
     font-size: 48px;
@@ -21,6 +24,9 @@ $color-bg: #02023a;
     text-align: left;
     margin-bottom: 10%;
     color: $color-bg;
+    @media screen and (max-width: 1024px) {
+      font-size : 40px; 
+    }
   }
 }
 
@@ -73,6 +79,7 @@ $color-bg: #02023a;
   }
   .footer-desc {
     color : #ffffff;
+    background-color : $color-bg;
     h4 {
       width : 25%;
       font-family : roboto;
